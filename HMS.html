@@ -160,13 +160,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<script>
 								var timeDisplay = document.getElementById("time");
 								function refreshTime() {
-  									var dateString = new Date().toLocaleString("en-US", {timeZone: "America/Sao_Paulo"});
+  									var dateString = new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
   									var formattedString = dateString.replace(", ", " - ");
   									timeDisplay.innerHTML = formattedString;
 								}
 								setInterval(refreshTime, 1000);
 							</script>
-							<span class="colorlib-counter-label">Time</span>
+							<span class="colorlib-counter-label">Eastern Standard Time (EST)</span>
 						</div>
 					</div>
 				</div>
