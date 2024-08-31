@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Algebraic_K-theory</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+	
+  <!-- LaTeX integration -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/template.css" type="text/css">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(image3/Penn_1.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html"></a></h1>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="calendar">Calendar</a></li>
+						<li><a href="#" data-nav-section="talks_notes">Notes and Discussions</a></li>
+						<li><a href="#" data-nav-section="refs">References</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				<p><small>Last update: Nov 13, 2023</small></p>
+				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </small></p>
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/aurora_faded.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Algebraic K-theory</h1>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/Norway2_faded.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>Algebraic K-theory</h1>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="calendar">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">Schedule</span>
+										<strong>Talks:</strong> <font color="red"> <b>Friday 1:30-3:00 PM GMT-5, Room 4N30 </b></font>, David Rittenhouse Laboratory, 209 S 33rd St, Philadelphia, PA 19104.<br>
+										<strong>Problem sessions:</strong> 2:15-3:00 PM during the lecture time.<br>
+										<strong> This is a reading course of algebraic K theory at Penn, Fall 2023. </strong> Advisor: <a href="https://torsor.org/">Dr. Danny Krashen</a>.<br>
+										<strong> <a href="files/Syllabus_K.pdf">Here </a> </strong> is the syllabus of this course.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(image3/changbaishan.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+						<div class="text-center animate-box">
+							<span class="colorlib-counter js-counter" id="time"></span>
+							<script>
+								var timeDisplay = document.getElementById("time");
+								function refreshTime() {
+  									var dateString = new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
+  									var formattedString = dateString.replace(", ", " - ");
+  									timeDisplay.innerHTML = formattedString;
+								}
+								setInterval(refreshTime, 1000);
+							</script>
+							<span class="colorlib-counter-label">Eastern Standard Time (EST)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+
+			<section class="colorlib-blog" data-section="talks_notes">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Read</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="about-desc animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading">Notes</h2>
+							<ul>
+								<li><b>Week 1 (Sep 8): Lecturer: Daebeom Choi</b></li>
+									\( K_0 \) of rings, Serre-Swan (category of finite rank vector bundle of Hausdorff compact space is equivalent to the category of finitely generated projective modules over \( C^{\infty}(M) \) ),
+									computation of special rings, Morita invariance of \( K_0 \), Dedekind domains, class groups, \( K_0 \) of Dedekind domains.
+									<br>
+									See <a href="files/Alg_K_1.pdf">Notes</a>.
+								    <br>
+									    
+								<li><b>Week 2 (Sep 15): Lecturer: Yaojie Hu</b></li>
+									Projective modules, pushouts and pullbacks, construction of projectives, elementary matrices, Whitehead groups \( GL(R)/E(R) \), definition of \( K_1 \),
+									Morita invariance of \( K_1 \), \( K_1 \) of local rings and division rings, exact sequences associated with pullbacks and pushouts.
+								    	<br>
+									See <a href="files/Alg_K_2.pdf">Notes</a>.
+								    <be>
+
+								<li><b>Week 3 (Sep 22): Lecturer: Fangji Liu</b></li>
+									Relations in \( E(R) \), perfect ring, Steinberg groups, definition of \( K_2 \), (universal) central extensions, example of central extensions, detection theorem (\( G \) perfect iff G admits a universal central extension),
+									relations to group homology, properties of \( K_2 \)
+								    	<br>
+									See <a href="files/Alg_K_3.pdf">Notes</a>.
+								    <br>
+
+								<li><b>Week 4 (Sep 29): Lecturer: Chayansudha Biswas</b></li>
+									Review of \( K_2 \), Steinberg Symbol and related identities, examples of Steinberg symbol: (\( K_2 = \mathbb{Z}/2 \) generated by \( \{ -1, -1\} \), coordinates replacement matrices, computations in Steinberg groups,
+									subgroups \( W = \left \langle w_{ij}(u) \right \rangle \) and \( H = \left \langle h_{ij}(u) = w_{ij}(u) w_{ij}(-1) \right \rangle \) of Steinberg group, decomposition of codomain of \( W \to GL(n,R) \) into permutation and diagonals,
+									special case of Weyl groups, subgroups generated by Steinberg symbol.
+								    	<br>
+									See <a href="files/Alg_K_4.pdf">Notes</a>.
+								    <br>
+
+								<li><b>Week 5 (Oct 6): Lecturer: Marc Muhleisen</b></li>
+									The long exact sequence of \( A, a \) in \( K_0, K_1 \), Mayer-Victoris.
+								    	<br>
+									See <a href="files/Alg_K_5.pdf">Notes</a>.
+								    <br>
+
+								<li><b>Week 6 (Oct 13): FALL BREAK!</b></li>
+								    <br>
+
+								<li><b>Week 7 (Oct 20): Lecturer: Jinghui Yang</b></li>
+									Acyclic spaces and maps, properties of these objects, classifying space, Quillen's +-construction, the definition of higher algebraic K groups \( K_n(R) = \pi_n (BGL(R))^+ \) (\( n \geq 1 \)), K-spaces \( K(R) =  K_0(R) \times BGL(R)^+ \),
+									concrete construction of +-constructions via attaching 2- & 3-cells, verification of new definition coinciding the traditional definition of \( K_0, K_1, K_2 \), Barratt-Priddy-Quillen-Segal theorem, +-construction is infinite loop space,
+									May's recognition theorem on K-spaces, computation of stable stem \( \pi_1^s, \pi_2^s \).
+								    	<br>
+									See <a href="files/Alg_K_6.pdf">Notes</a>. <font color="blue"> <b>Note that I add some extra content in this note of my own flavor</b></font>.
+								    <br>
+
+								<li><b>Week 8 (Oct 27): Lecturer: Marc Muhleisen</b></li>
+									Recapture of classical \( K_2 \), Steinberg groups, Steinberg symbols, valuation, valuation rings, properties of valuation rings (local, criterion), Matsumoto's theorem \( K_2(F) = F^{\times} \otimes_{\mathbb{Z}} F^{\times} / \left \langle x \otimes (1-x) \right \rangle_x \), 
+									Steinberg symbols on fields valued in abelian groups, formulas of Steinberg symbols with discrete valuation, calculation of \( K_2 \mathbb{Q} \cong \{ \pm \} \oplus \mathbb{F}_3 \oplus \mathbb{F}_5 \oplus \cdots \), quadratic reciprocity, 
+									image of \( K_2 \) into \( \{ \pm \} \), relation to Steinberg symbol, Weil theorem, proof of Matsumoto's theorem.
+								    	<br>
+									See <a href="files/Alg_K_7.pdf">Notes</a>.
+								    <br>
+
+								<li><b>Week 9 (Nov 3): Lecturer: Jinghui Yang</b></li>
+									<i>Prerequisite: simplicial objects, nerves, geometric realizations, homotopy theory of categories. See <a href="files/Simplicial_categories__homotopy_theory_of_cats.pdf">this notes</a>. (Please let me know if there are any mistakes or typos)</i>
+									<br>
+									Exact categories, resolution w.r.t. subcategory, Resolution theorem, Quillen's Q-category of exact categories, correspondence between isomorphism, Q-construction of K-theory, "+=Q", \( \infty \)-categories (quasi-category model), additive \( \infty \)-categories, 
+									stable \( \infty \)-categories, exact \( \infty \)-categories, Quillen's Q-category of exact \( \infty \)-categories, classical Q-construction equivalent to \( \infty \)-categorical Q-construction, thick subcategories, Localization Theorem, Dévissage.
+								    	<br>
+									See <a href="files/Alg_K_8.pdf">Notes</a>.
+								    <br>
+									    
+								<li><b>Week 10 (Nov 10): Lecturer: Kartik Tandon</b></li>
+									Waldhausen categories, K-theory of Waldhausen S-construction, "Quillen Q = Waldhausen S-construction", K-theory of schemes, stable \( \infty \)-categories, derived categories (of schemes), t-structures, \( D(X)^{\heartsuit} = \text{QCoh}(X) \), perfect complexes,
+									compact objects, \( \text{Idem}(\mathcal{C}), \text{Ind}(\mathcal{C}) \), categories of (small, idempotent-complete, presentable) stable \( \infty \)-categories, Verdier quotients, Karoubi sequences, Neeman-Thomason localization, additivity theorem,
+									universality theorem, Grothendieck topology, Zariski descent, Nisnevich descent, Beilinson theorem, \( K(\mathbb{P}_R^2) = K(R) \oplus K(R) \).
+								    	<br>
+									See <a href="files/Alg_K_9.pdf">Notes</a>.
+								    <br>
+
+								<li><b>Week 11 (Nov 17): Lecturer: Daebeom Choi</b></li>
+									Review of exact categories, Q-constructions, Quillen's theorem A & B, and fundamental theorems (Resolution, Localization, Dévissage). Corollary on \( K_n(\mathsf{Mod}_{A}^{f.g.}[f^{\infty}]) \), long exact sequences for regular Noetherian \( A \) ( \( \cdots \to K_n(A/f) \to K_n(A) \to K_n(A_f) \to \cdots \) ),
+									the case of the Dedekind domains and their fraction fields. Serre subcategories (or thick subcategories), proof sketch of Dévissage <font color="green">(the rest two in notes)</font>, K-theory of Dedekind schemes, coherent sheaves of support in codimension \(p\) ( \( \mathsf{Coh}^p(X) \) ).
+									filtration of \( \mathsf{Coh}(X) \) w.r.t. \( \mathsf{Coh}^p(X) \), Brown-Gersten-Quillen (BGQ) spectral sequences, Chow groups, Bloch's formula.
+								    	<br>
+									See <a href="files/Alg_K_10.pdf">Notes</a>.
+								    <br>
+
+								<li><b>Week 12 (Nov 24): THANKSGIVING BREAK!</b></li>
+								    <br>
+
+								<li><b>Week 13 (Dec 1): Lecturer: Fangji Liu</b></li>
+									Representation rings \( R(G) \), Adams operations \( \Phi^k \), construction of Adams operations, non-commutative diagram of \( \Phi^k \) and \( \beta \) (Bott periodicity), fiber sequence \( F \Phi^q \to BU \xrightarrow{\Phi^q -1} BU \), characters of representations, Adams operations on representation (ring),
+									Brauer lifting, construction of map \( g^+: BGL \mathbb{F}_q^+ \to BU \), lifting of \( F \Phi^q \), homotopy equivalence of \( BGL \mathbb{F}_q^+ \to F \Phi^q \), Quillen's calculus of K-theory of finite fields, K-theory of finite coefficients, Suslin's rigidity theorem,
+									K-theory of algebraic closed fields \( F \) (\( \text{char} \, F = p >0 \) or 0 ) in finite coefficients, torsions of \( K_{2i-1}(F) \), result of \( K_{\ast}(\mathbb{Z}) \), \( e \)-invariant, Vandiver conjecture.
+								    	<br>
+									See <a href="files/Alg_K_11.pdf">Notes</a>.
+								    <br>
+
+								<li><b>Week 14 (Dec 12): Lecturer: Yaojie Hu</b></li>
+									Hochschild homology, cyclic operator, (cyclic) bar construction, \( HH_n(A, M) \cong \text{Tor}^{A^e}(M, A) \), Hochschild-Kostant-Rosenberg (\( HH_n(A) \cong \Omega^n_{A/k} \)), (negative) cyclic homology and periodic homology, Connes complex, Killing contractible complex, Connes operator \( B=(1-t)sN \), 
+									Connes periodicity exact sequences, relation between \( HC, HC^-, HP \) and Kahler differentials, (algebraic) connections, (algebraic) de Rham cohomology theory, Levi-Civita connections, Chern characters, Dennis trace map \( K_n(A) \to HC^-(A) \).
+								    	<br>
+									See <a href="files/Alg_K_12.pdf">Notes</a>.
+								    <br>
+									    
+								<li><b>END OF SEMESTER!</b></li>
+								    <br>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="colorlib-blog" data-section="refs">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Read</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="about-desc animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading">Extras</h2>
+							<ul>
+								<li> A non-trivial h-cobordism: <a href="https://en.wikipedia.org/wiki/Akbulut_cork">Akbulut cork</a>.
+								</li>
+
+								<li> About \( SK_1 \): see <a href="https://mathoverflow.net/questions/191215/the-definition-of-sk-1-for-an-arbitrary-ring">this post</a> and <a href="https://mathoverflow.net/questions/235579/how-bad-can-sk-1-of-a-commutative-ring-be">this post</a>, and this <a href="https://www.math.ucla.edu/~merkurev/papers/finalsk1.pdf">note</a>.
+								</li>
+
+								<li> \( A_{n}/A_{\infty}/E_{n}/E_{\infty} \)-operad, recognition principle, approximation theorem: see <a href="https://iwoat.github.io/school2023">this 2023 iWoAT summer school</a> and the book <a href="https://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf"> \( E_{\infty} \) Ring Spaces and \( E_{\infty} \) Ring Spectra</a> by Peter May.
+								</li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="about-desc animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading">References</h2>
+							<ul>
+								<li> [<strong>Milnor</strong>] <a href="https://press.princeton.edu/books/ebook/9781400881796/introduction-to-algebraic-k-theory-am-72-volume-72">Introduction to Algebraic K-Theory</a> We mainly follow this book.
+								</li>
+
+								<li> [<strong>Rosenberg</strong>] <a href="https://link.springer.com/book/10.1007/978-1-4612-4314-4">Algebraic K-Theory and Its Applications </a>. This is a very good resource for the course!
+								</li>
+
+								<li> [<strong>Quillen</strong>] <a href="https://link.springer.com/chapter/10.1007/BFb0067053">Higher algebraic K-theory: I </a>. This is a good resource for algebraic topologists.
+								</li>
+
+								<li> [<strong>Adams</strong>] <a href="https://www.degruyter.com/document/doi/10.1515/9781400821259/html?lang=en">Infinite Loop Spaces </a>. It's a very classical and great resource.
+								</li>
+
+								<li> [<strong>Weibel</strong>] <a href="https://sites.math.rutgers.edu/~weibel/Kbook.html">The K-book: an introduction to algebraic K-theory </a>. Another main reference for (especially) higher algebraic K-theory.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row">
+						<div class="about-desc animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading">Useful Links</h2>
+							<ul>
+								<li> <a href="https://torsor.org/kcycle/">Math 7020: Algebraic K-theory and Algebraic Cycles</a> (Fall 2022). Taught by Prof. Daniel Krashen, University of Pennsylvania.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<hr>
+
+			<div class="bot">
+				<a href="https://www.math.upenn.edu/"><img src="image3/upenn_logo.jpg" width="120" height="80"></a> 
+				<br>
+				<a href="https://www.math.upenn.edu/">Department of Mathematics</a>
+			</div>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
